@@ -1,7 +1,12 @@
 <pre>
 📂 project
     ├── 📄 index.html
-    └── 📂 asset
+    ├── 📄 wallpaper-tahoe-day.jpg
+    ├── 📄 wallpaper-glass-light.jpg
+    ├── 📄 wallpaper-glass-dark.jpg
+    ├── 📄 wallpaper-aurora.jpg
+    ├── 📄 wallpaper-bigsur.jpg
+    └── 📂 assets
         ├── 📄 index-Bfk0NWYJ.js
         └── 📄 index-BqrKPhU7.css
 </pre>
