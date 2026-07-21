@@ -1,0 +1,29 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="macOS 27 — a pixel-faithful Liquid Glass macOS simulation running entirely in your browser."/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&amp;display=swap" rel="stylesheet"/>
+    <title>macOS 27</title>
+    <style>
+      html, body, #root { height: 100%; margin: 0; overflow: hidden; background: #000; }
+    </style>
+    <script type="module" crossorigin="" src="assets/index-Bfk0NWYJ.js"></script>
+    <link rel="stylesheet" crossorigin="" href="assets/index-BqrKPhU7.css"/>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- Liquid Glass SVG refraction filter (Chromium: backdrop-filter: url(#lg-refraction)) -->
+    <svg width="0" height="0" aria-hidden="true" style="position:absolute">
+      <defs>
+        <filter id="lg-refraction" x="-5%" y="-5%" width="110%" height="110%">
+          <feTurbulence type="fractalNoise" baseFrequency="0.012 0.02" numOctaves="2" seed="7" result="noise"></feTurbulence>
+          <feGaussianBlur in="noise" stdDeviation="2.2" result="soft"></feGaussianBlur>
+          <feDisplacementMap in="SourceGraphic" in2="soft" scale="12" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
+        </filter>
+      </defs>
+    </svg>
+  
+
+</body></html>
