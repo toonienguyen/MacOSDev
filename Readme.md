@@ -1,9 +1,5 @@
-project
-
-index.html
-
-assets
-
-index-Bfk0NWYJ.js
-
-index-BqrKPhU7.css
+đệ ngu akl nó viết như sau root 
+                             |
+                             |___ index.html
+                             |
+                             |_ asset ấy
